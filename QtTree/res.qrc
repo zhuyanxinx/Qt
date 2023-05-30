@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_tree/CDNjiedian.svg</file>
+        <file>icon_tree/chuangkou.svg</file>
+        <file>icon_tree/chuangkoufangda.svg</file>
+        <file>icon_tree/dodechild.svg</file>
+        <file>icon_tree/dodeparent.svg</file>
+        <file>icon_tree/exit.svg</file>
+        <file>icon_tree/fangda.svg</file>
+        <file>icon_tree/fangdajing.svg</file>
+        <file>icon_tree/fangdajing_1.svg</file>
+        <file>icon_tree/fix-full.svg</file>
+        <file>icon_tree/fix.svg</file>
+        <file>icon_tree/fuwei.svg</file>
+        <file>icon_tree/fuwei_1.svg</file>
+        <file>icon_tree/genjiedian.svg</file>
+        <file>icon_tree/guding.svg</file>
+        <file>icon_tree/jiedian.svg</file>
+        <file>icon_tree/jiedian_1.svg</file>
+        <file>icon_tree/jurassic_Window-min.svg</file>
+        <file>icon_tree/shituxianshiquanbujiedian.svg</file>
+        <file>icon_tree/suoxiao.svg</file>
+        <file>icon_tree/tianjiajiedian.svg</file>
+        <file>icon_tree/tianjiamulu.svg</file>
+        <file>icon_tree/tianjiamulu_1.svg</file>
+        <file>icon_tree/tianjiawenjian-.svg</file>
+        <file>icon_tree/tianjiawenjian.svg</file>
+        <file>icon_tree/tianjiawenjian_1.svg</file>
+        <file>icon_tree/tianjiazijiedian.svg</file>
+    </qresource>
+</RCC>
