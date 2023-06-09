@@ -183,6 +183,9 @@
    </property>
   </action>
   <action name="actionTextBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="res.qrc">
      <normaloff>:/icon_table/ziyuan.svg</normaloff>:/icon_table/ziyuan.svg</iconset>
