@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_tree/exit.svg</file>
+        <file>icon_tree/jiedian.svg</file>
+    </qresource>
+</RCC>

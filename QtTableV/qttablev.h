@@ -6,6 +6,8 @@
 class QLabel;
 class QItemSelectionModel;
 class QStandardItemModel;
+class TComboBoxDelegate;
+class TSpinDelegate;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -15,6 +17,10 @@ QT_END_NAMESPACE
 
 class QtTableV : public QMainWindow {
     Q_OBJECT
+private:
+    TSpinDelegate* spinDelegate;
+    TComboBoxDelegate* comboDelegate;
+
 public:
     QtTableV(QWidget* parent = nullptr);
     ~QtTableV();

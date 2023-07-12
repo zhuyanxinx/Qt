@@ -1,6 +1,8 @@
 #include "qttablev.h"
 #include "./ui_qttablev.h"
 
+#include "tcomboboxdelegate.h"
+#include "tspindelegate.h"
 #include <QFileDialog>
 #include <QItemSelectionModel>
 #include <QLabel>
@@ -32,6 +34,20 @@ QtTableV::QtTableV(QWidget* parent)
     ui->tableView->setSelectionBehavior(QAbstractItemView::SelectItems);
 
     connect(modelSelect, &QItemSelectionModel::currentChanged, this, &QtTableV::onModelSelectCurrentChanged);
+
+    spinDelegate = new TSpinDelegate(this);
+    ui->tableView->setItemDelegateForColumn(0, spinDelegate);
+
+    comboDelegate = new TComboBoxDelegate(this);
+    QStringList lstOpt;
+    lstOpt << "G"
+           << "H"
+           << "J"
+           << "K"
+           << "L";
+    comboDelegate->setItems(lstOpt, false);
+
+    ui->tableView->setItemDelegateForColumn(1, comboDelegate);
 }
 
 QtTableV::~QtTableV()
@@ -57,8 +73,9 @@ void QtTableV::on_actionOpenFile_triggered()
     if (fileName.isEmpty())
         return;
     QFile file(fileName);
-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         return;
+    }
     QStringList lstContent;
     ui->plainTextEdit->clear();
     QTextStream txtStream(&file);
