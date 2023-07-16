@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DDWidget</class>
+ <widget class="QMainWindow" name="DDWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DDWidget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="hlayoutP">
+      <item>
+       <widget class="QGroupBox" name="groupO">
+        <property name="title">
+         <string>设置对象</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QRadioButton" name="radioSrc">
+           <property name="text">
+            <string>ListSource</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QRadioButton" name="radioList">
+           <property name="text">
+            <string>ListWidget</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QRadioButton" name="radioTree">
+           <property name="text">
+            <string>TreeWidget</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QRadioButton" name="radioTable">
+           <property name="text">
+            <string>TableWidget</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupParam">
+        <property name="title">
+         <string>拖拽参数</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QCheckBox" name="chkAcceptDrop">
+           <property name="text">
+            <string>AcceptDrops</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QCheckBox" name="chkDragEnable">
+           <property name="text">
+            <string>DragEnabled</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="labMode">
+           <property name="text">
+            <string>DragDropMode</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboMode">
+           <item>
+            <property name="text">
+             <string extracomment="0">NoDragDrop</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="1">DragOnly</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="2">DropOnly</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="3">DragDrop</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="4">InternalMove</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="labAction">
+           <property name="text">
+            <string>DefaultDropAction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboAction">
+           <item>
+            <property name="text">
+             <string>CopyAction</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MoveAction</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>LinkAction</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IgnoreAction</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>118</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="hlayoutO">
+      <item>
+       <widget class="QGroupBox" name="groupSrc">
+        <property name="title">
+         <string>ListSource</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <widget class="QListWidget" name="listWidgetSrc">
+           <property name="dragEnabled">
+            <bool>true</bool>
+           </property>
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::DragDrop</enum>
+           </property>
+           <item>
+            <property name="text">
+             <string>应用</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/apply.svg</normaloff>:/icon/apply.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichu.svg</normaloff>:/icon/tuichu.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出小</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichu_1.svg</normaloff>:/icon/tuichu_1.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出一</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichu_2.svg</normaloff>:/icon/tuichu_2.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出二</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichu_3.svg</normaloff>:/icon/tuichu_3.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出四</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichu_4.svg</normaloff>:/icon/tuichu_4.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>退出五</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tuichuchengxu.svg</normaloff>:/icon/tuichuchengxu.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>预览</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/yulanmoshi.svg</normaloff>:/icon/yulanmoshi.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>添加</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/tianjiahang.svg</normaloff>:/icon/tianjiahang.svg</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>删除</string>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/icon/shanchuhang.svg</normaloff>:/icon/shanchuhang.svg</iconset>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupList">
+        <property name="title">
+         <string>ListWidget</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QListWidget" name="listWidget"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupTree">
+        <property name="minimumSize">
+         <size>
+          <width>170</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>TreeWidget</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QTreeWidget" name="treeWidget">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="columnCount">
+            <number>2</number>
+           </property>
+           <column>
+            <property name="text">
+             <string notr="true">1</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string notr="true">2</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupTable">
+        <property name="minimumSize">
+         <size>
+          <width>250</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>TableWidget</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="dragDropMode">
+            <enum>QAbstractItemView::DragDrop</enum>
+           </property>
+           <property name="rowCount">
+            <number>7</number>
+           </property>
+           <property name="columnCount">
+            <number>3</number>
+           </property>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <column/>
+           <column/>
+           <column/>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
