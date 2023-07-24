@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_editor/baocun.svg</file>
+        <file>icon_editor/cancel.svg</file>
+        <file>icon_editor/cancel_1.svg</file>
+        <file>icon_editor/chexiao.svg</file>
+        <file>icon_editor/chongzuo.svg</file>
+        <file>icon_editor/clear.svg</file>
+        <file>icon_editor/confirm.svg</file>
+        <file>icon_editor/cut.svg</file>
+        <file>icon_editor/cuti.svg</file>
+        <file>icon_editor/dakaiwenjian.svg</file>
+        <file>icon_editor/dongxiao.svg</file>
+        <file>icon_editor/duiqijuzhong.svg</file>
+        <file>icon_editor/duiqiyouduiqi.svg</file>
+        <file>icon_editor/duiqizuoduiqi.svg</file>
+        <file>icon_editor/fuzhi.svg</file>
+        <file>icon_editor/gongshi.svg</file>
+        <file>icon_editor/guanbi.svg</file>
+        <file>icon_editor/guanbi_1.svg</file>
+        <file>icon_editor/guanbi_2.svg</file>
+        <file>icon_editor/guanbi_3.svg</file>
+        <file>icon_editor/guanbisuoyou.svg</file>
+        <file>icon_editor/italic.svg</file>
+        <file>icon_editor/jilianxuanze.svg</file>
+        <file>icon_editor/lang_cn.svg</file>
+        <file>icon_editor/lang_en.svg</file>
+        <file>icon_editor/logout.svg</file>
+        <file>icon_editor/paste.svg</file>
+        <file>icon_editor/pingpupailie.svg</file>
+        <file>icon_editor/tabs.svg</file>
+        <file>icon_editor/text-pen.svg</file>
+        <file>icon_editor/xiahuaxian.svg</file>
+        <file>icon_editor/xinjianwenjian.svg</file>
+        <file>icon_editor/xinjianwenjianjia.svg</file>
+        <file>icon_editor/yuyanyingwen.svg</file>
+        <file>icon_editor/zhongwen.svg</file>
+        <file>icon_editor/ziti.svg</file>
+        <file>icon_editor/zitidaxiao.svg</file>
+        <file>icon_editor/splash.png</file>
+    </qresource>
+</RCC>
