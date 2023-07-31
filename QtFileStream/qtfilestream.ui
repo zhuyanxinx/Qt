@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtFileStream</class>
+ <widget class="QMainWindow" name="QtFileStream">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>598</width>
+    <height>388</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtFileStream</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabFile">
+       <attribute name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/icon_file/bianji.svg</normaloff>:/icon_file/bianji.svg</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>QFile</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QPlainTextEdit" name="plainFile"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="QTextStream">
+       <attribute name="icon">
+        <iconset resource="res.qrc">
+         <normaloff>:/icon_file/bianji_1.svg</normaloff>:/icon_file/bianji_1.svg</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>QTextStream</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QPlainTextEdit" name="plainStream"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQFileOpen"/>
+   <addaction name="actionQFileSaveAs"/>
+   <addaction name="actionQSaveFile"/>
+   <addaction name="separator"/>
+   <addaction name="actionQTextStreamOpen"/>
+   <addaction name="actionQTextStreamSaveAs"/>
+   <addaction name="separator"/>
+   <addaction name="actionQuit"/>
+  </widget>
+  <action name="actionQFileOpen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/doc.svg</normaloff>:/icon_file/doc.svg</iconset>
+   </property>
+   <property name="text">
+    <string>QFile打开</string>
+   </property>
+  </action>
+  <action name="actionQFileSaveAs">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/lingcunwei.svg</normaloff>:/icon_file/lingcunwei.svg</iconset>
+   </property>
+   <property name="text">
+    <string>QFile另存</string>
+   </property>
+  </action>
+  <action name="actionQSaveFile">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/jurassic_saveas.svg</normaloff>:/icon_file/jurassic_saveas.svg</iconset>
+   </property>
+   <property name="text">
+    <string>QSaveFile另存</string>
+   </property>
+  </action>
+  <action name="actionQTextStreamOpen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/dakai_1.svg</normaloff>:/icon_file/dakai_1.svg</iconset>
+   </property>
+   <property name="text">
+    <string>QTextStream打开</string>
+   </property>
+  </action>
+  <action name="actionQTextStreamSaveAs">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/quanbubaocungongzuobiao.svg</normaloff>:/icon_file/quanbubaocungongzuobiao.svg</iconset>
+   </property>
+   <property name="text">
+    <string>QTextStream另存</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon_file/tuichu.svg</normaloff>:/icon_file/tuichu.svg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>QtFileStream</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
