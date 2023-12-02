@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmbedWidget</class>
+ <widget class="QMainWindow" name="EmbedWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EmbedWidget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>571</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabFirst">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabSecond">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionEmbedWidget"/>
+   <addaction name="actionWidget"/>
+   <addaction name="separator"/>
+   <addaction name="actionEmbedMainWin"/>
+   <addaction name="actionMainWindow"/>
+   <addaction name="separator"/>
+   <addaction name="actionQuit"/>
+  </widget>
+  <action name="actionEmbedWidget">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/win/icons/icon_win/jiedian.svg</normaloff>:/win/icons/icon_win/jiedian.svg</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式Widget</string>
+   </property>
+  </action>
+  <action name="actionWidget">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/win/icons/icon_win/CDNjiedian.svg</normaloff>:/win/icons/icon_win/CDNjiedian.svg</iconset>
+   </property>
+   <property name="text">
+    <string>独立Widget</string>
+   </property>
+  </action>
+  <action name="actionEmbedMainWin">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/win/icons/icon_win/jurassic_Window-min.svg</normaloff>:/win/icons/icon_win/jurassic_Window-min.svg</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式MainWin</string>
+   </property>
+  </action>
+  <action name="actionMainWindow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/win/icons/icon_win/chuangkoufangda.svg</normaloff>:/win/icons/icon_win/chuangkoufangda.svg</iconset>
+   </property>
+   <property name="text">
+    <string>独立MainWindow</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/win/icons/icon_win/exit.svg</normaloff>:/win/icons/icon_win/exit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>EmbedWidget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

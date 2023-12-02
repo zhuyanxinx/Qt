@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TDialog</class>
+ <widget class="QMainWindow" name="TDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TDialog</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>581</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSetHeader"/>
+   <addaction name="actionSetSize"/>
+   <addaction name="actionLocate"/>
+   <addaction name="actionQuit"/>
+  </widget>
+  <action name="actionSetHeader">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/table/icons/table/jurassic_font-paixu.svg</normaloff>:/table/icons/table/jurassic_font-paixu.svg</iconset>
+   </property>
+   <property name="text">
+    <string>设置表头</string>
+   </property>
+  </action>
+  <action name="actionSetSize">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/table/icons/table/tianjiahang.svg</normaloff>:/table/icons/table/tianjiahang.svg</iconset>
+   </property>
+   <property name="text">
+    <string>设置行列</string>
+   </property>
+  </action>
+  <action name="actionLocate">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/table/icons/table/yulanmoshi.svg</normaloff>:/table/icons/table/yulanmoshi.svg</iconset>
+   </property>
+   <property name="text">
+    <string>定位单元格</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/table/icons/table/tuichu_2.svg</normaloff>:/table/icons/table/tuichu_2.svg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuit</sender>
+   <signal>triggered()</signal>
+   <receiver>TDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>303</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

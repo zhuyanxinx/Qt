@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_rw/duqushujuku.svg</file>
+        <file>icon_rw/qingkongziyuan.svg</file>
+        <file>icon_rw/tuichu.svg</file>
+        <file>icon_rw/xierushujuku.svg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>images/cdn.svg</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>images/binge.png</file>
+    </qresource>
+</RCC>

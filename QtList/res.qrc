@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_form/add.svg</file>
+        <file>icon_form/a-Icon_jiansuoliebiao_paixujiantoushang.svg</file>
+        <file>icon_form/a-Icon_jiansuoliebiao_paixujiantouxia.svg</file>
+        <file>icon_form/a-Icon_jiansuoliebiao_paixujiantouyou.svg</file>
+        <file>icon_form/a-Icon_jiansuoliebiao_paixujiantouzuo.svg</file>
+        <file>icon_form/Button-liebiaopaixu.svg</file>
+        <file>icon_form/caozuo_gaosu.svg</file>
+        <file>icon_form/caozuo_qipao.svg</file>
+        <file>icon_form/caozuorizhi.svg</file>
+        <file>icon_form/caozuo-wendu.svg</file>
+        <file>icon_form/empty.svg</file>
+        <file>icon_form/iconfonttubiao_fenxi.svg</file>
+        <file>icon_form/iconfonttubiao_fenxiang.svg</file>
+        <file>icon_form/iconfonttubiao_guanlian.svg</file>
+        <file>icon_form/jurassic_delete-user.svg</file>
+        <file>icon_form/jurassic_delete-users.svg</file>
+        <file>icon_form/liebiao.svg</file>
+        <file>icon_form/liebiao_.svg</file>
+        <file>icon_form/liebiaopaixu.svg</file>
+        <file>icon_form/liebiaopaixu_1.svg</file>
+        <file>icon_form/liebiaopaixu_2.svg</file>
+        <file>icon_form/liebiaopaixuguize.svg</file>
+        <file>icon_form/qingkong.svg</file>
+        <file>icon_form/qingkongziyuan.svg</file>
+        <file>icon_form/remove-role.svg</file>
+        <file>icon_form/shanchu.svg</file>
+        <file>icon_form/shanchu_1.svg</file>
+        <file>icon_form/shanchu_2.svg</file>
+        <file>icon_form/wenjianshanchu.svg</file>
+        <file>icon_form/xinzeng.svg</file>
+        <file>icon_form/xinzeng_1.svg</file>
+        <file>icon_form/xinzeng_2.svg</file>
+        <file>icon_form/xinzengcaidan.svg</file>
+    </qresource>
+</RCC>

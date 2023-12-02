@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/alignLeft.svg</file>
+        <file>icon/alignRight.svg</file>
+        <file>icon/apply.svg</file>
+        <file>icon/dakaiwenjianjia.svg</file>
+        <file>icon/insert.svg</file>
+        <file>icon/jurassic_font-paixu.svg</file>
+        <file>icon/juyou.svg</file>
+        <file>icon/juzhong.svg</file>
+        <file>icon/juzhongduiqi.svg</file>
+        <file>icon/juzuo.svg</file>
+        <file>icon/light-component-kv-KVinsert.svg</file>
+        <file>icon/shanchuhang.svg</file>
+        <file>icon/tianjiahang.svg</file>
+        <file>icon/tuichu.svg</file>
+        <file>icon/tuichu_1.svg</file>
+        <file>icon/tuichu_2.svg</file>
+        <file>icon/tuichu_3.svg</file>
+        <file>icon/tuichu_4.svg</file>
+        <file>icon/tuichuchengxu.svg</file>
+        <file>icon/yulan.svg</file>
+        <file>icon/yulanmoshi.svg</file>
+        <file>icon/ziyuan.svg</file>
+    </qresource>
+</RCC>

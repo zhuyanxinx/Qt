@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/baocun.svg</file>
+        <file>icon/cancel.svg</file>
+        <file>icon/cancel_1.svg</file>
+        <file>icon/chexiao.svg</file>
+        <file>icon/chongzuo.svg</file>
+        <file>icon/clear.svg</file>
+        <file>icon/confirm.svg</file>
+        <file>icon/cut.svg</file>
+        <file>icon/cuti.svg</file>
+        <file>icon/dakaiwenjian.svg</file>
+        <file>icon/dongxiao.svg</file>
+        <file>icon/duiqijuzhong.svg</file>
+        <file>icon/duiqiyouduiqi.svg</file>
+        <file>icon/duiqizuoduiqi.svg</file>
+        <file>icon/fuzhi.svg</file>
+        <file>icon/gongshi.svg</file>
+        <file>icon/guanbi.svg</file>
+        <file>icon/guanbi_1.svg</file>
+        <file>icon/guanbi_2.svg</file>
+        <file>icon/guanbi_3.svg</file>
+        <file>icon/italic.svg</file>
+        <file>icon/lang_cn.svg</file>
+        <file>icon/lang_en.svg</file>
+        <file>icon/logout.svg</file>
+        <file>icon/paste.svg</file>
+        <file>icon/text-pen.svg</file>
+        <file>icon/xiahuaxian.svg</file>
+        <file>icon/xinjianwenjian.svg</file>
+        <file>icon/xinjianwenjianjia.svg</file>
+        <file>icon/yuyanyingwen.svg</file>
+        <file>icon/zhongwen.svg</file>
+        <file>icon/ziti.svg</file>
+        <file>icon/zitidaxiao.svg</file>
+    </qresource>
+</RCC>

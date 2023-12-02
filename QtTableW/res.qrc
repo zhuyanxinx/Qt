@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon_person/iconfontnvtouxiang.svg</file>
+        <file>icon_person/nan.svg</file>
+        <file>icon_person/nanhai.svg</file>
+        <file>icon_person/nansheng.svg</file>
+        <file>icon_person/nvhai.svg</file>
+        <file>icon_person/nvsheng.svg</file>
+        <file>icon_person/xianxingnanhailan.svg</file>
+        <file>icon_person/xianxingxiaonvhai.svg</file>
+        <file>icon_person/xingbie-nan.svg</file>
+        <file>icon_person/xingbie-nv.svg</file>
+        <file>icon_person/xingbienan.svg</file>
+        <file>icon_person/xingbienv.svg</file>
+    </qresource>
+</RCC>
