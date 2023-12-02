@@ -17,6 +17,7 @@ set(PROJECT_SOURCES
         xyzhttp.cpp
         xyzhttp.h
         xyzhttp.ui
+        httpclient.h httpclient.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
